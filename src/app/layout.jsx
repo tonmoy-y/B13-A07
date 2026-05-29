@@ -21,7 +21,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const friendsPromise = fetch('http://localhost:3000/friends.json', {cache: 'no-store'}).then(res => res.json());
+  const friendsPromise = fetch('https://b13-a07-gamma.vercel.app/friends.json', {cache: 'no-store'}).then(res => res.json());
   return (
     <html
       lang="en" data-theme="light"
