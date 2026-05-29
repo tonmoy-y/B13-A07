@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "email": "ayesha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "Met during computer science classes at university. We still discuss tech and startups regularly.",
+    "goal": 14,
+    "next_due_date": "2026-06-01"
+  },
+  {
+    "id": 2,
+    "name": "Michael Turner",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "email": "michael.turner@yahoo.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["gym", "travel buddy"],
+    "bio": "We met at a fitness bootcamp in Kuala Lumpur and stayed friends through our shared love for traveling.",
+    "goal": 10,
+    "next_due_date": "2026-06-03"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+    "email": "nusrat.jahan@outlook.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["school", "study partner"],
+    "bio": "My high school debate teammate who now works as a journalist in Dhaka.",
+    "goal": 12,
+    "next_due_date": "2026-05-30"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Kim",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "email": "daniel.kim@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["gaming", "online friend"],
+    "bio": "We became friends through competitive Valorant tournaments and weekly Discord hangouts.",
+    "goal": 14,
+    "next_due_date": "2026-05-25"
+  },
+  {
+    "id": 5,
+    "name": "Farzana Kabir",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "email": "farzana.kabir@mail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague who helped me improve my public speaking and presentation skills.",
+    "goal": 15,
+    "next_due_date": "2026-06-09"
+  },
+  {
+    "id": 6,
+    "name": "Ryan Mitchell",
+    "picture": "https://images.unsplash.com/photo-1504257432389-52343af06ae3",
+    "email": "ryan.mitchell@hotmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["football", "neighbor"],
+    "bio": "We grew up in the same neighborhood and still play football together during holidays.",
+    "goal": 14,
+    "next_due_date": "2026-05-29"
+  },
+  {
+    "id": 7,
+    "name": "Sadia Anjum",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "email": "sadia.anjum@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["book club", "creative"],
+    "bio": "Runs a local book club and always recommends great mystery novels and poetry collections.",
+    "goal": 21,
+    "next_due_date": "2026-05-20"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Walker",
+    "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
+    "email": "ethan.walker@protonmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["photography", "travel"],
+    "bio": "Met during a backpacking trip in Nepal. We often exchange landscape photography tips.",
+    "goal": 14,
+    "next_due_date": "2026-06-04"
+  },
+  {
+    "id": 9,
+    "name": "Tahmid Hasan",
+    "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598",
+    "email": "tahmid.hasan@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["startup", "business"],
+    "bio": "Friend from an entrepreneurship workshop who is currently building a fintech startup.",
+    "goal": 14,
+    "next_due_date": "2026-05-28"
+  },
+  {
+    "id": 10,
+    "name": "Olivia Bennett",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "email": "olivia.bennett@yahoo.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["music", "concert buddy"],
+    "bio": "We bonded over indie music festivals and still share playlists every month.",
+    "goal": 10,
+    "next_due_date": "2026-05-31"
+  }
+]
