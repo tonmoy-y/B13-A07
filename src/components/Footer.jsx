@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <div className='bg-[#244D3F] text-white container px-30'>
+        <div className='bg-[#244D3F] text-white container px-8 md:px-30'>
             <div className='mx-auto text-center my-10 pt-10'>
                 <h2 className='text-5xl'><span className='font-bold'>Keen</span>Keeper</h2>
             <p className='py-4'> Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <Link href="https://www.x.com/" target='blank'> <Image src={twitter} alt="twitter" width={40} height={40} ></Image></Link>
             </div>
             </div>
-            <div className='flex justify-between opacity-60 pb-10'>
+            <div className='flex flex-col-reverse gap-4 md:flex-row justify-between opacity-60 pb-10'>
                 <div><p>© 2026 KeenKeeper. All rights reserved.</p></div>
                 <div className='flex gap-8'>
                     <a href="#">Privacy Policy</a>

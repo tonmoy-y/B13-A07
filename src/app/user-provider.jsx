@@ -11,6 +11,7 @@ const UserProvider = ({children, friendsPromise }) => {
         text: 0,
         video: 0,
     });
+    
     return (
        <userContext.Provider value={{friendsPromise, history,setHistory ,count, setCount}}>{children}</userContext.Provider>
     );

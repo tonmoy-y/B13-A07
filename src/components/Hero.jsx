@@ -15,7 +15,7 @@ const Hero = () => {
     console.log(friends);
 
     return (
-        <div className='mx-auto text-center container px-30 space-y-4 pt-20'>
+        <div className='mx-auto text-center container px-8 md:px-30 space-y-4 pt-20'>
             <h2 className='text-4xl font-bold'>Friends to keep close in your life</h2>
             <p className='text-[##64748B] text-[16px] '>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br /> relationships that matter most.</p>
             <button className='btn btn-neutral text-white mt-4'><IoAdd size={20} className='text-white font-bold' />
