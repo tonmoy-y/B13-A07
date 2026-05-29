@@ -1,7 +1,7 @@
 'use client'
 import React, { use, useContext } from 'react';
 import { userContext } from '../user-provider';
-import { useParams } from 'next/navigation';
+import { notFound, useParams } from 'next/navigation';
 import Image from 'next/image';
 import { RiNotificationSnoozeLine, RiDeleteBin6Line } from "react-icons/ri";
 import { FiArchive } from "react-icons/fi";
@@ -9,6 +9,8 @@ import { LuPhoneCall } from "react-icons/lu";
 import { PiChatTextBold } from "react-icons/pi";
 import { LuVideo } from "react-icons/lu";
 import { toast, ToastContainer } from 'react-toastify';
+import NotFound from '../not-found';
+
 
 
 
@@ -51,7 +53,11 @@ const Profile = () => {
     const { friendsPromise, history, setHistory, count, setCount } = useContext(userContext);
     const friends = use(friendsPromise);
     const friend = friends.find(f => id == f.id);
+    if(!friend) {
+        return <NotFound></NotFound>;
+    }
     const { name, picture, email, days_since_contact, status, tags, bio, goal, next_due_date } = friend;
+    
     
     return (
         <div className='mx-auto text-center container md:px-30 space-y-4 p-10 md:p-20 bg-base-200'>

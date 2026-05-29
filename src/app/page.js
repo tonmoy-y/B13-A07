@@ -10,9 +10,10 @@ export default function Home() {
   return (
     <div className=" ">
       <main className="container mx-auto bg-base-200">
+        <Navbar></Navbar>
        <Hero> </Hero>
        <Friends></Friends>
-
+<Footer> </Footer>
       </main>
     </div>
   );
