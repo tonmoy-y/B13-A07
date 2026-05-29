@@ -1,6 +1,6 @@
 'use client'
 import React, { useContext } from 'react';
-import { PieChart } from '@mui/x-charts/PieChart';
+import { PieChart, Pie, Cell, Tooltip } from 'recharts';
 import { userContext } from '../user-provider';
 
 
@@ -20,12 +20,16 @@ const StatsPage = () => {
   
     ];
     
-    const settings = {
-        margin: { right: 5 },
-        width: 200,
-        height: 200,
-        hideLegend: true,
+    const renderTooltip = ({ active, payload }) => {
+        if (!active || !payload || payload.length === 0) return null;
+        const { name, value } = payload[0];
+        return (
+            <div className='bg-white border border-gray-200 rounded-lg px-3 py-2 text-sm'>
+                {name} : {value}
+            </div>
+        );
     };
+
     return (
         <div className='mx-auto container md:px-30 space-y-4 p-10 md:p-20 bg-base-200'>
             <h2 className='text-4xl mx-auto text-left font-bold'>Friendship Analytics</h2>
@@ -34,10 +38,16 @@ const StatsPage = () => {
            
             <div className='p-8 bg-white rounded-lg shadow'>
                 <h2 className='text-xl font-medium mb-6'>By Interaction Type</h2>
-               <PieChart
-      series={[{ innerRadius: 80, outerRadius: 100, data }]}
-      {...settings}
-      />
+                <div className='flex justify-center mt-10'>
+                    <PieChart width={200} height={200}>
+                        <Pie data={data} dataKey="value" nameKey="label" innerRadius={80} outerRadius={100}>
+                            {data.map((entry, index) => (
+                                <Cell key={`cell-${index}`} fill={entry.color} />
+                            ))}
+                        </Pie>
+                        <Tooltip content={renderTooltip} />
+                    </PieChart>
+                </div>
       <div className='flex gap-6 justify-center mt-8'>
         <div className='flex items-center gap-1'>
 

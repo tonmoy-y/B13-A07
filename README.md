@@ -1,6 +1,6 @@
 # KeenKeeper
 
-KeenKeeper is a friendship CRM that helps you keep track of the people who matter, their status, and your next touchpoint.
+KeenKeeper is a friendship CRM that helps you keep track of the people who matter, their status, and your next touch point.
 
 ## Technologies Used
 
