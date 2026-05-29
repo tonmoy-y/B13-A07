@@ -31,7 +31,7 @@ const Profile = () => {
                 }
             ]
         )
-        console.log(history);
+        // console.log(history);
         {
             check === "Call" ? setCount(prev => ({
                 ...prev,
@@ -44,7 +44,7 @@ const Profile = () => {
                 video: prev.video + 1
             }))
         }
-        console.log(count);
+        // console.log(count);
         
     }
     const params = useParams();

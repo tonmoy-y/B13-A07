@@ -5,7 +5,7 @@ import videoImage from '../assets/video.png';
 import Image from 'next/image';
 
 const ShowTimeline = ({his}) => {
-    console.log(his);
+    // console.log(his);
     const {activity, people , date} = his;
     let currentImage;
     if(activity === 'Call') {

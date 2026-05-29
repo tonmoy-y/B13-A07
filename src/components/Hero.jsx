@@ -12,7 +12,7 @@ const Hero = () => {
     // console.log(friends);
     const {friendsPromise} = useContext(userContext);
     const friends = use(friendsPromise);
-    console.log(friends);
+    // console.log(friends);
 
     return (
         <div className='mx-auto text-center container px-8 md:px-30 space-y-4 pt-20'>

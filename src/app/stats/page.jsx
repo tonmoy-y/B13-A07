@@ -12,6 +12,7 @@ const StatsPage = () => {
     const callColor = '#0088FE';
     const textColor = '#00C49F';
     const videoColor = '#FFBB28';
+    const sum = call + text + video;
     const data = [
         { label: 'Call', value: call, color: callColor },
         { label: 'Text', value: text, color: textColor },
@@ -28,6 +29,9 @@ const StatsPage = () => {
     return (
         <div className='mx-auto container md:px-30 space-y-4 p-10 md:p-20 bg-base-200'>
             <h2 className='text-4xl mx-auto text-left font-bold'>Friendship Analytics</h2>
+            {
+                sum === 0 ? <div className='p-8 bg-white rounded-lg shadow'> Connect with someone to get analytics </div> :
+           
             <div className='p-8 bg-white rounded-lg shadow'>
                 <h2 className='text-xl font-medium mb-6'>By Interaction Type</h2>
                <PieChart
@@ -52,6 +56,7 @@ const StatsPage = () => {
         </div>
       </div>
       </div>
+       }
         </div>
     );
 };
