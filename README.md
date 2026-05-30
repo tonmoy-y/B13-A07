@@ -8,7 +8,7 @@ KeenKeeper is a friendship CRM that helps you keep track of the people who matte
 - React 19
 - Tailwind CSS 4
 - DaisyUI
-- MUI X Charts
+- Recharts
 - React Toastify
 
 ## Key Features
