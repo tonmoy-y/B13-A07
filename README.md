@@ -4,9 +4,9 @@ KeenKeeper is a friendship CRM that helps you keep track of the people who matte
 
 ## Technologies Used
 
-- Next.js 16 
-- React 19
-- Tailwind CSS 4
+- Next.js 
+- React
+- Tailwind CSS
 - DaisyUI
 - Recharts
 - React Toastify
